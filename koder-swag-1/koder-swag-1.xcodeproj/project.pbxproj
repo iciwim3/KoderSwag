@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		880E3DB61FF6A949008FDE78 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880E3DB51FF6A949008FDE78 /* ProductCell.swift */; };
 		889CA42A1FF5CF3C00016C56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889CA4291FF5CF3C00016C56 /* AppDelegate.swift */; };
 		889CA42C1FF5CF3C00016C56 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889CA42B1FF5CF3C00016C56 /* CategoriesVC.swift */; };
 		889CA42F1FF5CF3C00016C56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 889CA42D1FF5CF3C00016C56 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		880E3DB51FF6A949008FDE78 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		889CA4261FF5CF3C00016C56 /* koder-swag-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "koder-swag-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		889CA4291FF5CF3C00016C56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		889CA42B1FF5CF3C00016C56 /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			children = (
 				889CA42D1FF5CF3C00016C56 /* Main.storyboard */,
 				889CA43E1FF5D4F400016C56 /* CategoryCell.swift */,
+				880E3DB51FF6A949008FDE78 /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				889CA42C1FF5CF3C00016C56 /* CategoriesVC.swift in Sources */,
 				889CA42A1FF5CF3C00016C56 /* AppDelegate.swift in Sources */,
 				889CA43F1FF5D4F400016C56 /* CategoryCell.swift in Sources */,
+				880E3DB61FF6A949008FDE78 /* ProductCell.swift in Sources */,
 				889CA4411FF5D9FA00016C56 /* Category.swift in Sources */,
 				889CA4441FF5E0F200016C56 /* DataService.swift in Sources */,
 			);
