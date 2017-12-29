@@ -30,19 +30,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Y9S-Xf-ztk">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Y9S-Xf-ztk">
                                 <rect key="frame" x="0.0" y="70" width="375" height="533"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="140" id="vqh-KG-iRS" customClass="CategoryCell" customModule="koder_swag_1" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CategoryCell" rowHeight="140" id="vqh-KG-iRS" customClass="CategoryCell" customModule="koder_swag_1" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="140"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vqh-KG-iRS" id="QND-BH-gQx">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="139.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="140"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="wab-6e-7TR">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="139.5"/>
+                                                    <rect key="frame" x="0.0" y="3" width="375" height="133.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="133.5" id="NJN-DV-BFD"/>
+                                                    </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TEES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rjg-XU-JYo">
                                                     <rect key="frame" x="97" y="55" width="180" height="30"/>
@@ -57,11 +60,11 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="wab-6e-7TR" firstAttribute="leading" secondItem="QND-BH-gQx" secondAttribute="leading" id="71Y-yR-XGl"/>
-                                                <constraint firstAttribute="bottom" secondItem="wab-6e-7TR" secondAttribute="bottom" id="ElS-uA-NCD"/>
                                                 <constraint firstItem="rjg-XU-JYo" firstAttribute="centerX" secondItem="QND-BH-gQx" secondAttribute="centerX" id="FSd-J6-0PN"/>
+                                                <constraint firstAttribute="bottom" secondItem="wab-6e-7TR" secondAttribute="bottom" constant="3" id="IAN-d5-c1J"/>
+                                                <constraint firstItem="wab-6e-7TR" firstAttribute="top" secondItem="QND-BH-gQx" secondAttribute="top" constant="3" id="gYV-MC-2vC"/>
                                                 <constraint firstItem="rjg-XU-JYo" firstAttribute="centerY" secondItem="QND-BH-gQx" secondAttribute="centerY" id="mgh-rm-zxA"/>
                                                 <constraint firstAttribute="trailing" secondItem="wab-6e-7TR" secondAttribute="trailing" id="t9l-vn-f7N"/>
-                                                <constraint firstItem="wab-6e-7TR" firstAttribute="top" secondItem="QND-BH-gQx" secondAttribute="top" id="wBP-t6-SFi"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
