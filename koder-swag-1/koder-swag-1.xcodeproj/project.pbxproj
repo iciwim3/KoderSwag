@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		880E3DB61FF6A949008FDE78 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880E3DB51FF6A949008FDE78 /* ProductCell.swift */; };
+		88237C731FF8431A00973194 /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88237C721FF8431A00973194 /* ProductsVC.swift */; };
 		882833CE1FF7E659007C7676 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882833CD1FF7E659007C7676 /* Product.swift */; };
 		889CA42A1FF5CF3C00016C56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889CA4291FF5CF3C00016C56 /* AppDelegate.swift */; };
 		889CA42C1FF5CF3C00016C56 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889CA42B1FF5CF3C00016C56 /* CategoriesVC.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		880E3DB51FF6A949008FDE78 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		88237C721FF8431A00973194 /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
 		882833CD1FF7E659007C7676 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		889CA4261FF5CF3C00016C56 /* koder-swag-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "koder-swag-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		889CA4291FF5CF3C00016C56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				889CA42B1FF5CF3C00016C56 /* CategoriesVC.swift */,
+				88237C721FF8431A00973194 /* ProductsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88237C731FF8431A00973194 /* ProductsVC.swift in Sources */,
 				889CA42C1FF5CF3C00016C56 /* CategoriesVC.swift in Sources */,
 				889CA42A1FF5CF3C00016C56 /* AppDelegate.swift in Sources */,
 				889CA43F1FF5D4F400016C56 /* CategoryCell.swift in Sources */,
